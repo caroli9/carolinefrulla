@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+/* Set the default <body> properties. */
+body {
+	background-color: white;
+	color: DarkSlateGray;"
+    font-size: 0.9em;
+}
+
+header {
+    background-color: #bedcdb;
+    padding: 20px;
+}
+
+header h1, header h2 {
+    text-align: center;
+    font-family: "Voga", serif;
+    font-size: 5em;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 1.2em;
+}
+
+nav {
+    overflow: hidden;
+    position: relative;
+    top: -19px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    text-align: center;
+    }
+
+/* Style the links inside the navigation bar */
+nav a {
+    width: 150px;
+    background-color: black;
+    float: left;
+    display: inline-block;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 0px 10px 0px;
+}
+
+/* Change the color of links on hover */
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+nav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+main {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-size: 25px;
+    font-size: 2.5rem;
+    
+}
+
+h2{
+    border: 2px solid #bedcdb;
+    font-size: 20px;
+    font-size: 2.0rem;
+    font-weight: normal;
+    text-align: center;
+    font-family: serif;
+}
+
+h3{
+    color: #bedcdb;
+    font-size: 18px;
+    font-size: 1.0rem;
+}
+
+#social, #contactInfo {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    padding-left: 50px;
+    width: 400px;
+}
+
+#social h2 {
+    margin-top: 0px;
+}
+
+img.headshot {
+    display: block;
+    float:left;
+    max-width: 450px;
+    vertical-align: top;
+}
+
+
+.company, .college {
+    width:297px;
+    padding-right: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: right;
+    
+}
+
+
+.description, .collegedescription {
+    width:597px;
+    display:inline-block;
+    }
+
+.collegedescription p, .company p, .description p{
+    line-height: 0;
+     
+}
+
+#tools h3 {
+    text-align: center;
+}
+    
+#programming, #techtools, #authoring{
+    width: 297px;
+    display:inline-block;
+    vertical-align: top;
+}
+
+#documents, #flowcharts {
+    width: 448px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+a {
+    color: darkslategray;
+    
+}
+
+footer {
+    width: 100%;
+    background-color: #bedcdb;
+    opacity: .9;
+    color: black;
+    text-align: right;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 31px;
+}
+
+footer p {
+    size: 11px;
+    margin:10px;
+}
