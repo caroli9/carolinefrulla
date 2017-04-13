@@ -11,8 +11,8 @@ $("#elastic_grid_demo").elastic_grid({
 		{
 			'title' : 'Brochure',
 			'description'   : 'This trifold brochure was created using Adobe InDesign and Photoshop. It was created as an assignment for Designing Documents for Print and is a redesign of a previous Virginia Tech Human Resources brochure.',
-			'thumbnail' : ['img/portfolio/small/Redesign_distressed_employee_tn.jpg', 'img/portfolio/Redesign_distressed_employee2.jpg'],
-			'large' : ['img/portfolio/Redesign_distressed_employee.jpg', 'img/portfolio/Redesign_distressed_employee2.jpg'],
+			'thumbnail' : ['_img/Redesign_distressed_employee_tn.jpg', '_img/portfolio_lg/Redesign_distressed_employee2.jpg'],
+			'large' : ['_img/portfolio_lg/Redesign_distressed_employee.jpg', '_img/portfolio_lg/Redesign_distressed_employee2.jpg'],
 			'button_list'   :
 			[
 			],
@@ -23,8 +23,8 @@ $("#elastic_grid_demo").elastic_grid({
         	{
 			'title' : 'Infographic',
 			'description'   : 'This infographic was created using Adobe InDesign and Photoshop. It was created as an assignment for my Designing Documents for Print class.',
-			'thumbnail' : ['img/portfolio/small/Infographic_tn.jpg'],
-			'large' : ['img/portfolio/large/Infographic.jpg',],
+			'thumbnail' : ['_img/Infographic_tn.jpg'],
+			'large' : ['_img/portfolio_lg/Infographic.jpg',],
 			'button_list'   :
 			[
 			],
@@ -34,8 +34,8 @@ $("#elastic_grid_demo").elastic_grid({
 			{
 			'title' : 'Business Card',
 			'description'   : 'This business card and logo were created for the Star City Brewers Guild using Adobe InDesign and Illustrator.',
-			'thumbnail' : ['img/portfolio/small/SCBG_CARD_tn.jpg'],
-			'large' : ['img/portfolio/large/SCBG_CARD.jpg'],
+			'thumbnail' : ['_img/SCBG_CARD_tn.jpg'],
+			'large' : ['_img/portfolio_lg/SCBG_CARD.jpg'],
 			'button_list'   :
 			[
 			],
@@ -46,8 +46,8 @@ $("#elastic_grid_demo").elastic_grid({
 			{
 			'title' : 'Invitation',
 			'description'   : 'This baby shower invitation was designed for a coed shower and was mailed to the parents-to-be&#39;s extended family with an accompanying insert.',
-			'thumbnail' : ['img/portfolio/small/Babypalooza_tn.jpg', 'img/portfolio/large/babypalooza book.jpg'],
-			'large' : ['img/portfolio/large/babypalooza.jpg', 'img/portfolio/large/babypalooza book.jpg'],
+			'thumbnail' : ['_img/Babypalooza_tn.jpg', '_img/portfolio_lg/babypalooza book.jpg'],
+			'large' : ['_img/portfolio_lg/babypalooza.jpg', '_img/portfolio_lg/babypalooza book.jpg'],
 			'button_list'   :
 			[
 			],
@@ -57,8 +57,8 @@ $("#elastic_grid_demo").elastic_grid({
 			{
 			'title' : 'Invitation',
 			'description'   : 'This invitation was designed for a coed shower for the honoree&#39;s friends and family. It was mailed with an accompanying insert.',
-			'thumbnail' : ['img/portfolio/small/A BABY_tn.jpg', 'img/portfolio/a baby book.jpg'],
-			'large' : ['img/portfolio/large/A BABY.jpg', 'img/portfolio/a baby book.jpg'],
+			'thumbnail' : ['_img/baby_brew_tn.jpg', '_img/a baby book.jpg'],
+			'large' : ['_img/baby_brew.jpg', '_img/a baby book.jpg'],
 			'button_list'   :
 			[
 			],
@@ -68,8 +68,8 @@ $("#elastic_grid_demo").elastic_grid({
 			{
 			'title' : 'Invitation',
 			'description'   : 'This was created for a neighboorhood Octoberfest party.',
-			'thumbnail' : ['img/portfolio/small/octoberfest_tn.jpg'],
-			'large' : ['img/portfolio/large/octoberfest.jpg'],
+			'thumbnail' : ['_img/octoberfest_tn.jpg'],
+			'large' : ['_img/portfolio_lg/octoberfest.jpg'],
 			'button_list'   :
 			[
 			],
@@ -79,8 +79,8 @@ $("#elastic_grid_demo").elastic_grid({
 			{
 			'title' : 'Flyer',
 			'description'   : 'This event flyer was created for a class I was taking: Designing Documents for Print. We were allowed to choose an actual event (as opposed to a made-up one), so I created a flyer for an upcoming recruitment event. This was emailed out to a listserv of potential new members and hung up around the Virginia Tech campus.',
-			'thumbnail' : ['img/portfolio/small/AOE Halloween_tn.jpg', ],
-			'large' : ['img/portfolio/large/AOE Halloween.jpg'],
+			'thumbnail' : ['_img/AOE_Halloween_tn.jpg', ],
+			'large' : ['_img/portfolio_lg/AOE Halloween.jpg'],
 			'button_list'   :
 			[
 			],
@@ -90,8 +90,8 @@ $("#elastic_grid_demo").elastic_grid({
 			{
 			'title' : 'Flyer',
 			'description'   : 'This event poster was created for the Society of Engineering Science to advertise their bowling recruitment event. It was sent out over an email listserv.',
-			'thumbnail' : ['img/portfolio/small/SES Bowling_tn.jpg', ],
-			'large' : ['img/portfolio/large/SES Bowling.jpg',],
+			'thumbnail' : ['_img/SES_Bowling_tn.jpg', ],
+			'large' : ['_img/portfolio_lg/SES Bowling.jpg',],
 			'button_list'   :
 			[
 			],
@@ -101,8 +101,8 @@ $("#elastic_grid_demo").elastic_grid({
 			{
 			'title' : 'Flyer',
 			'description'   : 'This event poster was created for the Society of Engineering Science to advertise their game night. It was sent out over an email listserv.',
-			'thumbnail' : ['img/portfolio/small/SES Game Night_tn.jpg',],
-			'large' : ['img/portfolio/large/SES Game Night.jpg',],
+			'thumbnail' : ['_img/SES_Game_Night_tn.jpg',],
+			'large' : ['_img/portfolio_lg/SES Game Night.jpg',],
 			'button_list'   :
 			[
 			],
@@ -112,8 +112,8 @@ $("#elastic_grid_demo").elastic_grid({
 			{
 			'title' : 'Flyer',
 			'description'   : 'This event poster was created for the Society of Engineering Science to advertise an event they were hosting. It was sent out over an email listserv.',
-			'thumbnail' : ['img/portfolio/small/SES Lab Meeting Flyer_tn.jpg'],
-			'large' : ['img/portfolio/large/SES Lab Meeting Flyer.jpg'],
+			'thumbnail' : ['_img/SES_Lab_Meeting_Flyer_tn.jpg'],
+			'large' : ['_img/portfolio_lg/SES Lab Meeting Flyer.jpg'],
 			'button_list'   :
 			[
 			],
@@ -123,8 +123,8 @@ $("#elastic_grid_demo").elastic_grid({
 			{
 			'title' : 'Social Media',
 			'description'   : 'This was designed to advertise Alpha Omega Epsilon&#39;s super hero themed philanthropy. It was posted on the sorority instagram, sorority facebook, and event facebook.',
-			'thumbnail' : ['img/portfolio/small/TITTM_tn.jpg'],
-			'large' : ['img/portfolio/large/TITTM.jpg'],
+			'thumbnail' : ['_img/TITTM_tn.jpg'],
+			'large' : ['_img/portfolio_lg/TITTM.jpg'],
 			'button_list'   :
 			[
 			],
@@ -134,8 +134,8 @@ $("#elastic_grid_demo").elastic_grid({
 			{
 			'title' : 'Infographic',
 			'description'   : 'This infographic was created using Canva.com. It was created as an assignment for my Professional and Technical Writing seminar class.',
-			'thumbnail' : ['img/portfolio/small/Social Media Strategists_tn.jpg'],
-			'large' : ['img/portfolio/large/Social Media Strategists.jpg',],
+			'thumbnail' : ['_img/Social_Media_Strategists_tn.jpg'],
+			'large' : ['_img/portfolio_lg/Social Media Strategists.jpg',],
 			'button_list'   :
 			[
 			],
@@ -145,8 +145,8 @@ $("#elastic_grid_demo").elastic_grid({
 			{
 			'title' : 'Social Media',
 			'description'   : 'This was designed to advertise Alpha Omega Epsilon&#39;s fall recruitment event. It was posted on the sorority instagram and facebook.',
-			'thumbnail' : ['img/portfolio/small/Fall Festival_tn.jpg',],
-			'large' : ['img/portfolio/large/Fall Festival.jpg',],
+			'thumbnail' : ['_img/Fall_Festival_tn.jpg',],
+			'large' : ['_img/portfolio_lg/Fall Festival.jpg',],
 			'button_list'   :
 			[
 			],
