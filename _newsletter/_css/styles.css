@@ -5,25 +5,30 @@ body {
 	background-color: lightgrey;
 	color: white;
     font-size: 0.9em;
+    
 }
+@font-face {
+    font-family: Selima;
+    src: url(../_fonts/selima.otf);
+}
+
 
 header {
     background-image: url(../_img/group.JPG);
+    background-color: white;
     background-size: 100%;
+    background-position: center;
     background-repeat: no-repeat;
     padding: 20px;
 }
 
-header h1, header h2 {
+header h1{
     text-align: center;
-    font-family: "Voga", serif;
+    font-family: Selima;
     color: royalblue;
     font-size: 5em;
-    margin-bottom: 10px;
-}
-
-header h2 {
-    font-size: 1.2em;
+    margin: 0px;
+    margin-bottom: 4px;
 }
 
 nav {
@@ -38,9 +43,9 @@ nav {
 
 /* Style the links inside the navigation bar */
 nav a {
-    width: 225px;
+    width: 150px;
     background-color: black;
-    float: right;
+    float: left;
     display: inline-block;
     color: #f2f2f2;
     text-decoration: none;
@@ -63,8 +68,6 @@ nav a.active {
 #currentPage {
 	background-color: royalblue;
 	color: white;
-    
-    
 }
 
 main {
@@ -77,17 +80,19 @@ h1{
     font-size: 25px;
     font-size: 2.5rem;
     color: royalblue;
+    font-family: Selima;
     
 }
 
 h2{
-    font-size: 20px;
-    font-size: 2.0rem;
+    font-family: Selima;
+    font-size: 50px;
+    font-size: 3.0rem;
     font-weight: normal;
     text-align: left;
-    font-family: serif;
     color: royalblue;
     margin-top:0px;
+    margin-bottom: 5px;
 }
 
 h3{
@@ -96,16 +101,8 @@ h3{
     font-size: 1.0rem;
 }
 
-
-#social h2 {
-    margin-top: 0px;
-}
-
-img.headshot {
-    display: block;
-    float:left;
-    max-width: 450px;
-    vertical-align: top;
+#pics img {
+    width: 297px;
 }
 
 
@@ -115,13 +112,17 @@ img.headshot {
     display: inline-block;
     box-sizing: border-box;
     vertical-align: top;
-    text-align: right;
+    text-align: left;
     
+}
+
+#recruit h2 {
+    text-align: right;
 }
 
 #recruit {
     width:330px;
-    padding-right: 10px;
+    padding-left: 10px;
     display: inline-block;
     box-sizing: border-box;
     vertical-align: top;
