@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+/* Set the default <body> properties. */
+body {
+	background-color: lightgrey;
+	color: white;
+    font-size: 0.9em;
+}
+
+header {
+    background-image: url(../_img/group.JPG);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+header h1, header h2 {
+    text-align: center;
+    font-family: "Voga", serif;
+    color: royalblue;
+    font-size: 5em;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 1.2em;
+}
+
+nav {
+    overflow: hidden;
+    position: relative;
+    top: -19px;
+    width: 100%;
+    margin-left: 0px;
+    background-color: black;
+    text-align: center;
+    }
+
+/* Style the links inside the navigation bar */
+nav a {
+    width: 225px;
+    background-color: black;
+    float: right;
+    display: inline-block;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 0px 10px 0px;
+}
+
+/* Change the color of links on hover */
+nav a:hover, {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+nav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#currentPage {
+	background-color: royalblue;
+	color: white;
+    
+    
+}
+
+main {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-size: 25px;
+    font-size: 2.5rem;
+    color: royalblue;
+    
+}
+
+h2{
+    font-size: 20px;
+    font-size: 2.0rem;
+    font-weight: normal;
+    text-align: left;
+    font-family: serif;
+    color: royalblue;
+    margin-top:0px;
+}
+
+h3{
+    color: #bedcdb;
+    font-size: 18px;
+    font-size: 1.0rem;
+}
+
+
+#social h2 {
+    margin-top: 0px;
+}
+
+img.headshot {
+    display: block;
+    float:left;
+    max-width: 450px;
+    vertical-align: top;
+}
+
+
+#video {
+    width:560px;
+    padding-right: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: right;
+    
+}
+
+#recruit {
+    width:330px;
+    padding-right: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: right;
+}
