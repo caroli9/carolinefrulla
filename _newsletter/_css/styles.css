@@ -101,6 +101,25 @@ h3{
     font-size: 1.0rem;
 }
 
+#external p{
+    width:600px;
+    padding-left: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: left;
+}
+
+#externalpic {
+    width:290px;
+    padding-right: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    align-content: right;
+}
+
+
 #pics img {
     width: 297px;
 }
