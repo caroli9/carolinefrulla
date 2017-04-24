@@ -186,6 +186,20 @@ figcaption {
     font-size: 3.1em;
 }
 
+#serviceevents ul {
+    width:900px;
+    margin-bottom:20px;
+    overflow:hidden;
+}
+
+#serviceevents li {
+    list-style: circle;
+    width:50%;
+    line-height:1.5em;
+    float:left;
+    display:inline;
+}
+
 footer {
     overflow: hidden;
     position: relative;
