@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="_css/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>A&Omega;E Newsletter</title>
@@ -9,42 +10,235 @@
     
     <body>
         <header>
-            <h1>Alpha Omega Epsilon</h1>
-            <h1>Rho Chapter at Virginia Tech</h1>
-            <h1>Spring 2017 Newsletter</h1>
+            <h1 class="sorority">Alpha Omega Epsilon</h1>
+            <h1 class="chapter">Rho Chapter at Virginia Tech</h1>
+            <h1 class="volume">Spring 2017 Newsletter</h1>
         </header>
         
         <nav>
-            <a href="index.html">Home</a>
-            <a href="sisterhood.html">Sisterhood</a>
-            <a href="service.html">Service</a>
-            <a id="currentPage">Professionalism</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sisterhood.html">Sisterhood</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a id="currentPage">Professionalism</a></li>
+            </ul>
         </nav>
         
-        <main id="service">
+        <main id="professional">
             
-            <section id="careerfairs">
-                <h2>Career Fairs</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </section>
-            
-            <section id="etiquette">
-                <h2>Etiquette Dinner</h2>
-                <p>Starts April 24</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <section id="events">
+                <h2>Professional Events</h2>
+                <p>Our 2016-2017 Professional chair, Cassie Turberville, has done an excellent job setting up professional events to allow our sisters to constantly develop their professional skills. This semester our sister have developed through:</p>
+                <ul id="professionalevents">
+                    <li>Study hours
+                        <p>For over 25 hours a week, the sorority has private rooms reserved on campus where sisters can go to study. This year we have implemented tutoring sessions as a part of study hours where sisters can volunteer their time and knowledge to help other sisters!</p></li>
+                    <li>Company info sessions
+                        <p>So much is happening around campus, and Cassie makes sure sisters know what companies are in town. This is especially beneficial since not all info sessions get sent out to every department.</p></li>
+                    <li>Etiquette dinner
+                        <p>This semester it was held at Custom Catering.</p></li>
+                    <li>Night with the Industries
+                        <p>This networking event is the night before expo. Many expo company representatives are in attendance. We cosponsored this event with SWE.</p></li>
+                    <li>Professional dress chapter
+                        <p>Yes, it's still a thing!</p></li>
+                    <li>Co-op/intern panels with sisters
+                    <p>This semester we co-hosted a panel with SWE!</p></li>
+                </ul>
             </section>
             
             
             <section id="jobs">
-                <h2>Where in the world are our graduating seniors?</h2>
-                <p>Sisterhood spotlights of where our sisters are going and what companies they are working for.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h2>Where in the world are our sisters this summer?</h2>
+                <p>Carmen Sandiego has nothing on the Rho chapter. Our sisters are doing some amazing things this summer in some equally amazing places! #HumbleBrag</p>
+                <p>If you'd like to reach out to a sister coming to your city, all contact information on the sisters-only section of the website should be up to date! Check our social media throughout the summer for updates from these amazing places; sisters will be using the Instagram hashtag #CarmenSandiegRHO.</p>
+                
+                <section class="spotlight" id="carla">
+                    
+                    <h2>Carla Downs</h2>
+                    <p class="location">Kansas City, Missouri</p>
+                    <p class="description">Carla will be working for Obrital ATK as a manufacturing engineer making ammunition for the military.</p>
+                </section>
+                
+                <section class="spotlight" id="aisling">
+                    
+                    <h2>Aisling Neilan</h2>
+                    <p class="location">Phoenix, Arizona</p>
+                    <p class="description">Aisling will be interning for Honeywell as an Industrial Systems engineer in their Aerospace division.</p>
+                </section>
+                
+                <section class="spotlight" id="maria">
+                    
+                    <h2>Maria Bobbett</h2>
+                    <p class="location">Waukesha, Wisconsin</p>
+                    <p class="description">Maria will be  interning with GE Healthcare working with their CT machines.</p><br>
+                </section>
+                
+                <section class="spotlight" id="kaitlyn">
+                    
+                    <h2>Kaitlyn Leary</h2>
+                    <p class="location">Arlington, Virginia</p>
+                    <p class="description">After graduation Kaitlyn will be working for Deloitte as a business technology analyst.</p>
+                </section>
+                
+                <section class="spotlight" id="colleen">
+                    
+                    <h2>Colleen Ferlotti</h2>
+                    <p class="location">Raleigh, NC</p>
+                    <p class="description">Colleen will be interning with Walmart logistics engineering.</p>
+                </section>
+                
+                <section class="spotlight" id="christie">
+                    
+                    <h2>Christie Crandall</h2>
+                    <p class="location">Montague, Michigan</p>
+                    <p class="description">Christie will be running a counselor in training program at the YMCA summer camp!</p>
+                </section>
+                
+                <section class="spotlight" id="alyssa">
+                    
+                    <h2>Alyssa Ard</h2>
+                    <p class="location">Philadelphia, PA</p>
+                    <p class="description">Alyssa will be returning to PennDOT this summer to work on their bridge unit.</p>
+                </section>
+                
+                <section class="spotlight" id="mary">
+                    
+                    <h2>Mary Kwiakowski</h2>
+                    <p class="location">Richmond, Virginia</p>
+                    <p class="description">Mary will begin working with Captech as a software development consultant.</p>
+                </section>
+                
+                <section class="spotlight" id="zoe">
+                    
+                    <h2>Zoe Scopa</h2>
+                    <p class="location">Nottingham, UK</p>
+                    <p class="description">Zoe will be doing research at the GeoEnergy Research Centre at the University of Nottingham this summer!</p>
+                </section>
+                
+                <section class="spotlight" id="jordan">
+                    
+                    <h2>Jordan Martin</h2>
+                    <p class="location">Hampton, Virginia</p>
+                    <p class="description">Jordan will be interning with NASA this summer! </p>
+                </section>
+                
+                <section class="spotlight" id="erin">
+                    
+                    <h2>Erin Freshwater</h2>
+                    <p class="location">Lynn, Massachusetts</p>
+                    <p class="description">Erin will be interning for GE Aviation!</p>
+                </section>
+                
+                <section class="spotlight" id="emma">
+                    
+                    <h2>Emma Dartevelle</h2>
+                    <p class="location">Norfolk, Virginia</p>
+                    <p class="description">Emma will be working with USG this summer!</p>
+                </section>
+                
+                <section class="spotlight" id="abbi">
+                    <h2>Abbi Guillemart</h2>
+                    <p class="location">Kingsport, Tennessee</p>
+                    <p class="description">Abbi will be working with Eastman Chemical this summer</p>
+                </section>
+                
+                <section class="spotlight" id="heather">
+                    <h2>Heather Wadsworth</h2>
+                    <p class="location">Fribourg, Switzerland</p>
+                    <p class="description">Heather will be doing research with bio-inspired materials!</p>
+                </section>
+                
+                <section class="spotlight" id="adriana">
+                    <h2>Adriana Thomas</h2>
+                    <p class="location">Covington, Virginia</p>
+                    <p class="description">Adriana will be working with WestRock this summer!</p>
+                </section>
+                
+                <section class="spotlight" id="becca">
+                    <h2>Becca Putvinski</h2>
+                    <p class="location">Knoxville, Tennessee</p>
+                    <p class="description">Becca will be working with PetNet Solutions this summer!</p>
+                </section>
+                
+                <section class="spotlight" id="rachel">
+                    <h2>Rachel Stein</h2>
+                    <p class="location">Salem, Virginia</p>
+                    <p class="description">Rachel will be working with Americold this summer!</p>
+                </section>
+                
+                <section class="spotlight" id="christy">
+                    <h2>Christy Ash</h2>
+                    <p class="location">Bend, Oregon</p>
+                    <p class="description">Christy will be working with Deschutes Brewery! She'll also be in Boston, Massachusetts this summer working with Sam Adams!</p>
+                </section>
+                
+                <section class="spotlight" id="lauren">
+                    <h2>Lauren Beard</h2>
+                    <p class="location">Bentonville, Arkansas</p>
+                    <p class="description">Lauren will be working with the Sam's Club Operations Transformation team in their corporate HQ!</p>
+                </section>
+                
+                <section class="spotlight" id="stephanie">
+                    <h2>Stephanie Hoang</h2>
+                    <p class="location">Seattle, Washinton</p>
+                    <p class="description">Stephanie will be working with Boeing this summer!</p>
+                </section>
+                
+                <section class="spotlight" id="sophie">
+                    <h2>Sophie Khan</h2>
+                    <p class="location">Silver Spring, MD</p>
+                    <p class="description">Sophie will be working with the FDA this summer!</p>
+                </section>
+                
+                <section class="spotlight" id="genevieve">
+                    <h2>Genevieve Harms</h2>
+                    <p class="location">Baltimore, Maryland</p>
+                    <p class="description">Genevieve will be working with GE Aviation!</p>
+                </section>
+                
+                <section class="spotlight" id="rachel">
+                    <h2>Rachel Carie</h2>
+                    <p class="location">Arlington, Virginia</p>
+                    <p class="description">Rachel will be working with Deloitte!</p>
+                </section>
+                
+                <section class="spotlight" id="michaela">
+                    <h2>Michaela Park</h2>
+                    <p class="location">Rockville, Virginia</p>
+                    <p class="description">Michaela will be working for Vulcan!</p>
+                </section>
+                
+                <section class="spotlight" id="cassie">
+                    <h2>Cassie Tuberville</h2>
+                    <p class="location">Washington, D.C.</p>
+                    <p class="description">Cassie will be working with Youth Digital!</p>
+                </section>
+                
+                <section class="spotlight" id="kerr">
+                    <h2>Taylor Kerr</h2>
+                    <p class="location">Fort Worth, Texas</p>
+                    <p class="description">Taylor will be with Lockheed Martin Aero this summer!</p>
+                </section>
+                
+                <section class="spotlight" id="madi">
+                    <h2>Madi Crenshaw</h2>
+                    <p class="location">Richmond, VA</p>
+                    <p class="description">Madi will be working with DuPont again this summer!</p>
+                </section>
             </section>
             
             
 		</main>
         
         <footer>
+            <ul>
+                <li><a href="http://www.aoe.org.vt.edu/">Website</a></li>
+                <li><a href="https://www.facebook.com/VTAlphaOmegaEpsilon/?ref=br_rs">Facebook</a></li>
+                <li><a href="https://www.instagram.com/vt_aoe/">Instagram</a></li>
+                <li><a href="https://twitter.com/vt_aoe?lang=en">Twitter</a></li>
+                <li><a href="http://alpha-ep-vt.tumblr.com/">Tumblr</a></li>
+            </ul>
+            <br>
+            <p>&copy; 2017 Alpha Omega Epsilon Rho Chapter.</p>
         </footer>
     </body>
 </html>

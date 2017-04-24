@@ -2,9 +2,11 @@
 
 /* Set the default <body> properties. */
 body {
-	background-color: lightgrey;
+	background-color: #A4A4A4;
 	color: white;
     font-size: 0.9em;
+    font-family: 'Open Sans', sans-serif;
+
     
 }
 @font-face {
@@ -14,7 +16,7 @@ body {
 
 
 header {
-    background-image: url(../_img/group.JPG);
+    background-image: url(../_img/initation.JPG);
     background-color: white;
     background-size: 100%;
     background-position: center;
@@ -26,9 +28,15 @@ header h1{
     text-align: center;
     font-family: Selima;
     color: royalblue;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     font-size: 5em;
     margin: 0px;
     margin-bottom: 4px;
+}
+
+.volume {
+    color: white;
+    text-shadow: -3px 0 royalblue, 0 3px royalblue, 3px 0 royalblue, 0 -3px royalblue;
 }
 
 nav {
@@ -37,9 +45,16 @@ nav {
     top: -19px;
     width: 100%;
     margin-left: 0px;
+    padding-left: 0px;
     background-color: black;
     text-align: center;
     }
+
+nav ul{
+    list-style: none;
+    margin-top: 0px;
+    padding-left: 0px;
+}
 
 /* Style the links inside the navigation bar */
 nav a {
@@ -54,15 +69,9 @@ nav a {
 }
 
 /* Change the color of links on hover */
-nav a:hover, {
+nav a:hover {
     background-color: #ddd;
     color: black;
-}
-
-/* Add a color to the active/current link */
-nav a.active {
-    background-color: #4CAF50;
-    color: white;
 }
 
 #currentPage {
@@ -101,49 +110,112 @@ h3{
     font-size: 1.0rem;
 }
 
+section {
+    margin-bottom: 15px;
+}
+
 #external p{
-    width:600px;
-    padding-left: 10px;
+    width:500px;
     display: inline-block;
-    box-sizing: border-box;
     vertical-align: top;
     text-align: left;
+    float: left;
 }
 
-#externalpic {
-    width:290px;
-    padding-right: 10px;
-    display: inline-block;
-    box-sizing: border-box;
+#external figure {
+    width:280px;
+    float: right;
     vertical-align: top;
-    align-content: right;
 }
 
+figcaption {
+    color: black;
+}
 
-#pics img {
+#intro img, #sisterhood img, #service img {
     width: 297px;
 }
 
 
-#video {
-    width:560px;
+#video p{
+    width:330px;
     padding-right: 10px;
     display: inline-block;
     box-sizing: border-box;
     vertical-align: top;
     text-align: left;
+    float: right;
     
 }
-
-#recruit h2 {
-    text-align: right;
+#video iframe {
+    margin-top: 10px;
+    float left;
 }
 
-#recruit {
-    width:330px;
-    padding-left: 10px;
+#professionalevents li {
+    color:royalblue;
+    list-style: none;
+    font-family: Selima;
+    font-size: 2em;
+}
+
+#professionalevents p {
+    color:white;
+    font-size: .5em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.spotlight {
+    width:290px;
+    height: 175px;
+    border: 2px solid white;
     display: inline-block;
-    box-sizing: border-box;
     vertical-align: top;
-    text-align: right;
+    background-color: lightgrey;
+    color: slategray;
+    margin: 1px .5px 1px .5px;
+}
+
+.spotlight .location {
+    color: white;
+    font-size: 2em;
+    margin-top: 2px;
+}
+
+#heather h2 {
+    font-size: 3.1em;
+}
+
+footer {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-color: black;
+    height:2.8em;
+    font-size: 1em;
+}
+footer ul {
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    vertical-align: top;
+}
+footer a {
+    width: 80px;
+    background-color: black;
+    color: #f2f2f2;
+    float: right;
+    text-decoration: none;
+    text-align: center; 
+}
+
+footer a:hover {
+    color:royalblue;
+}
+
+footer p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:0px;
 }
